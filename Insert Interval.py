@@ -19,7 +19,7 @@ def insert(intervals, newInterval):
         i += 1
     result.append(newInterval)
     
-    # Step 3: Add all intervals starting after newInterval ends
+    # Step 3: Add all intervals starting after newInterval ends.
     while i < n:
         result.append(intervals[i])
         i += 1
