@@ -17,4 +17,4 @@ def hasPathSum(root, targetSum):
         return targetSum == root.val
     
     # Recursively check the left and right subtrees with the updated target sum
-    return hasPathSum(root.left, targetSum - root.val) or hasPathSum(root.right, targetSum
+    return hasPathSum(root.left, targetSum - root.val) or hasPathSum(root.right, targetSum - root.val)
